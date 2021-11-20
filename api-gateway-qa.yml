@@ -4,5 +4,4 @@ spring:
       routes:
       - id: product-service
         uri: http://localhost:9999/
-        predicates:
-        - Path=/product-service/**
+       
